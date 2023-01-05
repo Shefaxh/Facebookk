@@ -1,0 +1,194 @@
+.App {
+  text-align: center;
+}
+
+
+.login{
+  display: flex;
+  justify-content: center;
+  background-color: #f0f2f5;
+  gap: 5rem;
+  align-items: center;
+
+  padding-bottom: 20rem;
+}
+
+.fb img{
+  width: 20rem;
+}
+.fb h2{
+  width: 30rem;
+  text-align: start;
+  color: #67686b;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.fb {
+text-align: start;
+padding-top: 10rem;
+}
+
+.input1{
+  width: 20rem;
+  height: 2.5rem;
+  border: 1px solid #c1c3c7;
+  border-radius: 5px;
+   margin-bottom: 1rem;
+}
+
+.input2{
+  width: 20rem;
+  height: 2.5rem;
+  border: 1px solid #c1c3c7;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+.logdiv{
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 1rem 1rem;
+  margin-top: 10rem;
+}
+
+.btn1{
+  width: 20rem;
+  height: 2.5rem;
+  color: #ffffff;
+  background-color: #1877f2;
+  border-radius: 5px;
+  border: 1px solid #1877f2;
+  margin-bottom: 1rem;
+}
+.btn2{
+  color: #ffffff;
+  background-color: #42b72a;
+  height: 2.5rem;
+  width: 15rem;
+  border: 1px solid #42b72a ;
+ margin-top: 2rem;
+}
+
+
+.first{
+  display: flex;
+  gap: 18rem;
+}
+
+
+.main{
+  text-align: center;
+  width: 30rem;
+  border: 1px solid #848487;
+  border-radius: 3px;
+position: absolute;
+top: 17rem;
+right: 44rem;
+background-color: #ffffff;
+}
+
+.inp1{
+  width: 11rem;
+  height: 2rem;
+  margin-right: 0.5rem;
+  border:  1px solid #848487;
+  background-color: #e1e1e4;
+  border-radius: 3px;
+  color: #848487;
+}
+.inp2{
+  
+  width: 11rem;
+  height: 2rem;
+  border:  1px solid #848487;
+  background-color: #e1e1e4;
+  border-radius: 3px;
+  color: #848487;
+}
+.inp3{
+  margin-top: 0.5rem;
+  width: 23rem;
+  height: 2rem;
+  border:  1px solid #848487;
+  background-color: #e1e1e4;
+  border-radius: 3px;
+  color: #848487;
+}
+
+.inp4{
+  margin-top: 0.5rem;
+  width: 23rem;
+  height: 2rem;
+  border:  1px solid #848487;
+  background-color: #e1e1e4;
+  border-radius: 3px;
+  color: #848487;
+}
+
+.bp{
+  text-align: start;
+  padding-left: 2rem;
+}
+.fp{
+  padding-left: 2rem;
+}
+
+.month{
+  width: 8rem;
+  height: 2rem;
+  border-radius: 3px;
+
+}
+.day{
+  width: 8rem;
+  height: 2rem;
+  border-radius: 3px;
+}
+.year{
+  width: 8rem;
+  height: 2rem;
+  border-radius: 3px;
+}
+
+.femalel{
+  border: 1px #282c34;
+  border-radius: 3px;
+}
+
+
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
