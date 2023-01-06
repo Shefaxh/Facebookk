@@ -1,10 +1,13 @@
 import React from 'react';
 import { Formik,Field,Form} from "formik";
+import { Link } from 'react-router-dom'
 
 
 
     function Loginn() {
-    return( 
+       
+        
+        return( 
         <div>
                 <Formik 
                 initialValues={{
@@ -26,11 +29,11 @@ import { Formik,Field,Form} from "formik";
                 <br/>
                     <a>Forgot password?</a>
                     <hr/>
-                    <button className='btn2'>Create new account</button>
+                    <button  className='btn2'>    <Link className='link1' to={'Signup'} > Create new account</Link>  </button>
                 </Form>
                 </Formik>
 
-
+               
         </div>
     )
 }

@@ -81,10 +81,10 @@ padding-top: 10rem;
   width: 30rem;
   border: 1px solid #848487;
   border-radius: 3px;
-position: absolute;
-top: 17rem;
-right: 44rem;
+margin-top: 6rem;
+margin-left: 33rem;
 background-color: #ffffff;
+
 }
 
 .inp1{
@@ -150,10 +150,51 @@ background-color: #ffffff;
   border-radius: 3px;
 }
 
+
+
 .femalel{
-  border: 1px #282c34;
+  border: 1px solid #282c34;
   border-radius: 3px;
+ padding: 4px 4px;
+
 }
+
+.malel{
+  border: 1px solid #282c34;
+  border-radius: 3px;
+ padding: 4px 4px;
+ margin-left: 2rem;
+ 
+}
+
+.gp{
+  text-align: start;
+  margin-left: 2rem;
+}
+
+
+.btn4{
+  background-color: #42b72a;
+  color: #ffffff;
+  height: 2.5rem;
+  width: 10rem;
+  border:  1px solid #42b72a;
+  border-radius: 3px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.link1{
+  text-decoration: none;
+  color: white;
+}
+.link2{
+  text-decoration: none;
+  color: black;
+}
+
+
+
 
 
 
